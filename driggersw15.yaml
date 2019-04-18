@@ -1,0 +1,6 @@
+﻿trigger:
+  branches:
+    include:
+      refs/tags/{tagname}
+    exclude:
+      refs/tags/{othertagname}
